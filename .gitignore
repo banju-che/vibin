@@ -1,0 +1,58 @@
+# --- PYTHON BACKEND ---
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+videos/
+
+# Environment
+.env
+venv/
+env/
+*.env
+
+# Migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- REACT FRONTEND ---
+
+# Node modules
+vibin-frontend/node_modules/
+
+# Build output
+vibin-frontend/build/
+vibin-frontend/dist/
+
+# Logs
+vibin-frontend/npm-debug.log*
+vibin-frontend/yarn-debug.log*
+vibin-frontend/yarn-error.log*
+
+# Dependency directories
+vibin-frontend/.pnp/
+.vibin-frontend.pnp.js
+
+# .env files
+vibin-frontend/.env.local
+vibin-frontend/.env.development.local
+vibin-frontend/.env.test.local
+vibin-frontend/.env.production.local
+
+# Misc
+.DS_Store
+Thumbs.db

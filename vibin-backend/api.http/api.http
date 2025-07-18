@@ -1,0 +1,36 @@
+### 1. JWT Login
+POST http://localhost:8000/api/auth/
+Content-Type: application/json
+
+{
+  "email": "allenchristopher@example.com",
+  "password": "test1234"
+}
+
+###
+
+### 2. Refresh Token
+POST http://localhost:8000/api/auth/refresh/
+Content-Type: application/json
+
+{
+  "refresh":  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1MTI3Mjg0OCwiaWF0IjoxNzUxMTg2NDQ4LCJqdGkiOiI2YWI0NGIxZDg0MGY0ZjdjOGY3NmJjMGE2MzlkZDcwMyIsInVzZXJfaWQiOjExfQ.CXMpJDbSOKYGUOAqg6XNAxUQ4d8hDh2Wn0_aKl7U5pM"
+}
+
+###
+
+### 3. Get All Posts (Protected)
+GET http://localhost:8000/api/accounts/me/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNzkzNjU5LCJpYXQiOjE3NTE3OTMzNTksImp0aSI6IjEyZWQzNTFhM2EwMjQ3NDNhMzdiMzQzMjFmOTJmMTFjIiwidXNlcl9pZCI6Mzl9.RzwtufJJAjlLUK-TrG2ynpe9cZP97e5pV8wB22on9r8
+
+
+###
+
+### 4. Create Post (Protected)
+POST http://localhost:8000/api/posts/
+Authorization: Bearer your_access_token_here
+Content-Type: application/json
+
+{
+  "caption": "This is a test post"
+}
