@@ -6,17 +6,13 @@ Built using **Django (REST)** for the backend and **React (Vite + Tailwind)** fo
 
 ---
 
-## 🌐 Live Demo
 
-[🚀 Deployed Link (optional)](https://your-deployed-link.com)
-
----
 
 ## 📸 Screenshots
 
-| Feed Page | Loopsta Video | Portfolio Section |
-|-----------|---------------|-------------------|
-| ![Feed](./screenshots/feed.png) | ![Loopsta](./screenshots/loopsta.png) | ![Portfolio](./screenshots/portfolio.png) |
+| Feed Page | Loopsta Video 
+|-----------|---------------|
+| ![Feed](./screenshots/feed.png) | ![Loopsta](./screenshots/loopsta.png) 
 
 ---
 
@@ -50,18 +46,7 @@ Built using **Django (REST)** for the backend and **React (Vite + Tailwind)** fo
 - Real-time comment modal
 - Integrated inside Vibin ecosystem
 
-### 🧑‍💻 Developer Portfolio Section
-- Portfolio cards display:
-  - Project Title, Description, Stack
-  - GitHub link
-  - Feature list
-- Reusable components styled with Tailwind
 
-### 💬 Messaging (Upcoming)
-- Direct messaging feature (WIP)
-- Modal chat interface with Framer Motion
-
----
 
 ## 📁 Folder Structure (Frontend)
 
