@@ -12,7 +12,7 @@ Built using **Django (REST)** for the backend and **React (Vite + Tailwind)** fo
 
 | Feed Page | Loopsta Video 
 |-----------|---------------|
-| ![Feed](./screenshots/feed.png) | ![Loopsta](./screenshots/loopsta.png) 
+| ![Feed](./screenshots/vibin-home.png) | ![Loopsta](./screenshots/vibin-loopsta.png) 
 
 ---
 
