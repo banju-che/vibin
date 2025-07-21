@@ -19,7 +19,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     try {
-      const res = await fetch("http://localhost:8000/api/auth/", {
+      const res = await fetch("https://vibin-11es.onrender.com/api/auth/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password })
@@ -46,7 +46,7 @@ export const AuthProvider = ({ children }) => {
     if (!refresh) return logout();
 
     try {
-      const res = await fetch("http://localhost:8000/api/auth/refresh/", {
+      const res = await fetch("https://vibin-11es.onrender.com/api/auth/refresh", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ refresh }),
