@@ -73,7 +73,7 @@ const VideoCard = ({ video }) => {
   
       {/* Bottom-left caption */}
       <div className="relative z-10 text-white space-y-2 max-w-[80%]">
-        <p className="font-semibold text-sm">@user{video.user}</p>
+        <p className="font-semibold text-sm">@user {video.user}</p>
         <p className="text-base">{video.caption}</p>
       </div>
   
