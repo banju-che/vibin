@@ -26,7 +26,7 @@ export const uploadVideo = async (formData) => {
 // src/services/videoService.js
 
 export const toggleVideoLike = async (videoId) => {
-  const response = await client.post("/likes/toggle/", { video_id: videoId });
+  const response = await client.post("/likes/toggle/video/", { video_id: videoId });
   return response.data;
 };
 

@@ -27,9 +27,8 @@ from loopsta.models import Loopsta
 from likes.models import Like
 
 class ToggleLikeView(APIView):
-    def post(self, request):
+    def post(self, request, post_id=None):
         user = request.user
-        post_id = request.data.get("post_id")
         video_id = request.data.get("video_id")
 
         if post_id:

@@ -5,4 +5,5 @@ urlpatterns = [
     path('', LikeListCreateView.as_view(), name='like-list-create'),
     path('<int:pk>/', LikeDetailView.as_view(), name='like-detail'),
     path('toggle/<int:post_id>/', ToggleLikeView.as_view(), name='toggle-like'),
+    path('toggle/video/', ToggleLikeView.as_view(), name='toggle-video-like'),
 ]
